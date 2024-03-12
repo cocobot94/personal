@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 13:20-0400\n"
+"POT-Creation-Date: 2024-03-07 00:42-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,31 +18,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+#: .\models.py:8 .\models.py:21
+msgid "skill"
+msgstr "habilidad"
 
-#: .\models.py:39
-msgid "description"
-msgstr "descripcion"
+#: .\models.py:11
+msgid "knowledge"
+msgstr "conocimiento"
 
-#: .\models.py:42
-msgid "image"
-msgstr "imagen"
-
-#: .\models.py:45
-msgid "state"
-msgstr "estado"
-
-#: .\models.py:46
-#, fuzzy
-#| msgid "Created"
+#: .\models.py:13
 msgid "created"
-msgstr "creado"
+msgstr "creada"
 
-#: .\models.py:47
-#, fuzzy
-#| msgid "Updated"
+#: .\models.py:14
 msgid "updated"
-msgstr "actualizado"
+msgstr "actualizada"
 
-#: .\models.py:53 .\models.py:54
-msgid "About Me"
-msgstr "Acerca de mi"
+#: .\models.py:22
+msgid "skills"
+msgstr "habilidades"

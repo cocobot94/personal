@@ -18,5 +18,5 @@ class Skill(models.Model):
 
     class Meta:
         ordering = ["-knowledge"]
-        verbose_name = _("Skill")
-        verbose_name_plural = _("Skills")
+        verbose_name = _("skill")
+        verbose_name_plural = _("skills")

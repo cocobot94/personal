@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 13:20-0400\n"
+"POT-Creation-Date: 2024-03-07 23:39-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,31 +18,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+#: .\models.py:9
+msgid "title"
+msgstr ""
 
-#: .\models.py:39
+#: .\models.py:10
 msgid "description"
 msgstr "descripcion"
 
-#: .\models.py:42
+#: .\models.py:13
 msgid "image"
 msgstr "imagen"
 
-#: .\models.py:45
+#: .\models.py:15
+msgid "order"
+msgstr "orden"
+
+#: .\models.py:16
 msgid "state"
 msgstr "estado"
 
-#: .\models.py:46
-#, fuzzy
-#| msgid "Created"
-msgid "created"
-msgstr "creado"
+#: .\models.py:24
+msgid "project"
+msgstr "proyecto"
 
-#: .\models.py:47
-#, fuzzy
-#| msgid "Updated"
-msgid "updated"
-msgstr "actualizado"
-
-#: .\models.py:53 .\models.py:54
-msgid "About Me"
-msgstr "Acerca de mi"
+#: .\models.py:25
+msgid "projects"
+msgstr "proyectos"
